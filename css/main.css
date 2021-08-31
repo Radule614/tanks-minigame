@@ -1,0 +1,63 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #000;
+}
+
+#game {
+    width: 1100px;
+    height: 850px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    overflow: hidden;
+    background-color: #555;
+}
+
+#canvas {
+    position: absolute;
+}
+
+#UI {
+    height: 60px;
+    color: #c70039;
+    line-height: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.row {
+    display: block;
+    position: relative;
+}
+
+.row.left {
+    float: left
+}
+
+.row.right {
+    float: right;
+}
+
+.clear {
+    float: none;
+    clear: both;
+}
+
+.nonhighlight {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#health {
+    width: 100px;
+    text-align: center;
+    font-size: 40px;
+}
